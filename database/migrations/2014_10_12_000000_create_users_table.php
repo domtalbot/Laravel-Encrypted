@@ -17,6 +17,9 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->text('blood_type');
+            $table->text('medical_conditions');
+            $table->text('allergies');
             $table->rememberToken();
             $table->timestamps();
         });
