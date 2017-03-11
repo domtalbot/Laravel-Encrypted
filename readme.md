@@ -1,3 +1,16 @@
+# Laravel Encrypted Models Demo
+
+This Repo should be used as a learning tool and also resource for using the Encryptable Trait for Laravel Models.
+
+# Getting Started
+
+* Clone the Repo
+* Composer Install
+* Setup an .env based on the example
+* run `php artisan migrate:refresh --seed`
+* Run `php artisan serve`
+* Go to `/localhost:8000/user` to see a decrypted value
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
